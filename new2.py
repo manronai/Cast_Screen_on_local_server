@@ -45,4 +45,4 @@ def video_feed():
     """Video streaming route. Put this in the src attribute of an img tag."""
     return Response(gen(),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
-app.run(host='192.168.0.104', port=5555,debug=True, threaded=True)
+app.run(host='192.168.31.124', port=5555,debug=True, threaded=True)
